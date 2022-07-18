@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+
+*{
+  box-sizing : border-box;
+  margin : 0;
+  padding : 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #439C65;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:#282c34;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  margin: 0;
+  font-family: 'Albert Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  height : 80px;
+}
+
+button {
+  border: none;
+  background: none ;
+  color : white;
+}
+
+.icon {
+  font-size : 1.5em;
+}
+
+.phone {
+  display: flex;
+  padding: 0.5em;
+  align-items: center;
+  width : 100%;
+  }
+
+.phone {
+  display : grid;
+  align-items: center;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap : 50px;
+  margin : 1.5rem 0 ;
+  width : 100%;
+}
+
+.navbar {
+  display : flex;
+  justify-content: center;
+  gap : 50px;
+  align-items: center;
+}
+
+.phone-details {
+  display : grid;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap : 30px;
+  align-items : center;
+  text-align : left;
+  padding : .5em;
+  width : 100%;
+}
+
+.action-buttons {
+  display : flex;
+  flex-direction : column;
+  text-align: center;
+}
+
+
+button:hover{
+  color : blue;
+}
